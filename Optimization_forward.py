@@ -15,7 +15,7 @@ def Boxing(box_number, box_size, object_volume_array, base_index):
 
 
 if __name__ == '__main__':
-    while 1:
+    while 1:  # get and check inputs : they should be positive integers
         try:
             n, m, k = map(int, input().split())
             if n < 0 or m < 0 or k < 0:
